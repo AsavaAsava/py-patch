@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-patch"
+version = "0.1.0"
+description = ""
+authors = ["AsavaAsava <wayne.majani@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "py_patch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
